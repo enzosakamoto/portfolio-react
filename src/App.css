@@ -13,8 +13,3 @@ body {
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
-
-.pages {
-    position: relative;
-    min-height: 92.5vh;
-}

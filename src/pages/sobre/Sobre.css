@@ -1,0 +1,41 @@
+.perfil {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    gap: 4.4rem;
+    border-top: 0.4px solid white;
+    border-bottom: 0.4px solid white;
+    place-items: center;
+    height: 70vh;
+    padding: 12rem;
+}
+.foto-avatar {
+    width: 42.3rem;
+    height: 45.4rem;
+    border-left: 3px solid white;
+}
+
+.conteudo-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3.4rem;
+}
+
+.paragrafo {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.botoes {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.2rem;
+}

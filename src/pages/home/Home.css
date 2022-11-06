@@ -5,6 +5,7 @@
     flex-direction: row;
     place-items: center;
     position: relative;
+    border-bottom: 0.4px solid white;
 }
 
 .titulos {
