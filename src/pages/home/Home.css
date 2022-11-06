@@ -1,0 +1,29 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    place-items: center;
+    position: relative;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos h2 {
+    font-size: 2.5rem;
+}
+
+.titulos h1 {
+    font-size: 10rem;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.logo-home {
+    width: 55.5rem;
+    height: 55.5rem;
+}

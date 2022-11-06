@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.4rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    border-bottom: 0.4px solid white;
+    background-color: black;
+}
+
+.texto-logo {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.items {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.texto-items {
+    font-size: 2rem;
+}

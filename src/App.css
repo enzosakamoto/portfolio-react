@@ -1,4 +1,20 @@
-body {
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    font-size: 62.5%;
     color: white;
+}
+
+body {
+    background-color: #222222;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.pages {
+    position: relative;
+    min-height: 92.5vh;
 }
