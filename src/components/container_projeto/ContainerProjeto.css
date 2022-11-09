@@ -1,0 +1,32 @@
+.container-wrap {
+    background-color: rgba(48, 46, 46, 1);
+    border-left: 0.4px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 45vh;
+    height: 45vh;
+    justify-content: space-between;
+}
+
+/* .container-wrap img {
+    width: 400px;
+    height: 131px;
+} */
+
+.textos-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem;
+}
+
+.titulo-projeto {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.paragrafo-wrap {
+    font-size: 2rem;
+    text-align: justify;
+}

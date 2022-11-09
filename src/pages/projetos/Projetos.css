@@ -1,0 +1,18 @@
+.projetos {
+    background-color: black;
+    height: 75vh;
+    border-top: 0.4px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 8.6rem;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.projetos h2 {
+    font-size: 3rem;
+}
+
+.projetos h3 {
+    font-size: 2.5rem;
+}

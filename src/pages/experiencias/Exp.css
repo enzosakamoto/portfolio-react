@@ -1,7 +1,7 @@
 .experiencias {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 35vh;
     padding: 12rem;
     gap: 7rem;
 }
@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    place-items: center;
 }
 
 .experiencias-botoes {
@@ -44,7 +45,7 @@
 
 .container-textos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 3.5rem;
     width: 80%;
@@ -62,5 +63,5 @@
 }
 
 .container-textos img {
-    width: 25rem;
+    width: 15rem;
 }
