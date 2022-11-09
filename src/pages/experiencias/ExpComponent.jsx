@@ -1,19 +1,66 @@
+import { useState } from 'react';
+import dev from './assets/dev.svg'
+import maua from './assets/logo_maua.svg'
+
 import './Exp.css'
 
-export default function ExpComponent() { 
+function ClickBotao() {
+
+}
+
+export default function ExpComponent() {
+    const [containerDev_show, SetContainer] = useState(1);
     return(
         <div className="experiencias">
             <h2>Experiências</h2>
-            <div>
-                <div>
-                    <div className="container-botao">
-                        <p>Dev. Community Mauá</p>
-                    </div>
-                    <div className="container-botao">
+            <div className='experiencias-container'>
+                <div className='experiencias-botoes'>
+                    <button 
+                        className="container-botao"
+                        onClick={() => SetContainer(1)}>
+                            <p>Dev. Community Mauá</p>
+                    </button>
+                    <button 
+                        className="container-botao"
+                        onClick={() => SetContainer(0)}>
                         <p>Monitor - GT</p>
-                    </div>
+                    </button>
                 </div>
-                
+                {containerDev_show ? 
+                    <div className="container-textos">
+                        <div className="textos">
+                            <p className="textos-paragrafo">
+                                A Dev. Community Mauá é uma entidade de desenvolvimento e criação de soluções computacionais do Instituto Mauá de Tecnologia.
+                            </p>
+                            <p className="textos-paragrafo">
+                                Membro desde março de 2022, exercendo função de Desenvolvedor Front-End.
+                            </p>
+                            <p className="textos-paragrafo">
+                                Atuei como Desenvolvedor Front-End e Back-End do projeto integrador do sistema da biblioteca com o site da instituição, chamado MauáLib, utilizando a linguagem de programação Dart com framework Flutter.
+                            </p>
+                        </div>
+                        <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br" target="_blank">
+                            <img src={dev} alt="Logo da Dev. Community Mauá"/>
+                        </a>
+                    </div>
+                    :
+                    <div className="container-textos">
+                        <div className="textos">
+                            <p className="textos-paragrafo">
+                                Monitor para o Instituto Mauá de Tecnologia, contribuindo para o projeto de Curricularização da Extensão.
+                            </p>
+                            <p className="textos-paragrafo">
+                                Projeto em desenvolvimento por grupos de professores e coordenadores de cursos do IMT.
+                            </p>
+                            <p className="textos-paragrafo">
+                                Estou atuando como auxiliar ao Grupo de Trabalho e ao Núcleo de Extensão Universitária, tendo como função a organização de dados, criação de planilhas, criação de novos sistemas de banco e controle de dados e etc.
+                            </p>
+                        </div>
+                        <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br" target="_blank">
+                            <img src={maua} alt="Logo da Dev. Community Mauá"/>
+                        </a>
+                    </div>
+                }
             </div>
         </div>
     );

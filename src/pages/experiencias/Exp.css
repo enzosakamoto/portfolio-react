@@ -12,21 +12,25 @@
     /* margin-left: 4.8rem; */
 }
 
-.experiencias div {
+.experiencias-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.experiencias div div {
+.experiencias-botoes {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .container-botao {
     background-color: #1E1D1D;
-    padding: 1.2rem;
-    place-items: center;
+    padding: 1.6rem;
+    text-align: center;
+    border-radius: 10px;
     transition: background-color 0.4s ease-out;
+    border: 0;
 }
 
 .container-botao:hover {
@@ -35,6 +39,28 @@
 }
 
 .container-botao p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+}
+
+.container-textos {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 3.5rem;
+    width: 80%;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.textos-paragrafo {
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+.container-textos img {
+    width: 25rem;
 }
