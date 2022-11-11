@@ -1,0 +1,56 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    padding: 12rem;
+    border-top: 0.4px solid white;
+    gap: 1.5rem;
+    height: 25vh;
+}
+
+.contato h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.informacoes {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.email-contato {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    place-items: center;
+}
+
+.linkedin-contato {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    place-items: center;
+}
+
+.linkedin-contato img {
+    transition: all 250ms;
+}
+
+.linkedin-contato img:hover {
+    transform: scale(1.1);
+}
+
+.linkedin-contato p {
+    transition: color 0.4s ease-out;
+    transition: all 250ms;
+}
+
+.linkedin-contato p:hover {
+    color: rgb(167, 165, 165);
+    transform: scale(1.05);
+}
+
+.texto-contato {
+    font-size: 2rem;
+}

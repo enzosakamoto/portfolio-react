@@ -4,6 +4,8 @@ import SobreComponent from './pages/sobre/SobreComponent';
 import HomeComponent from './pages/home/HomeComponent';
 import ExpComponent from './pages/experiencias/ExpComponent';
 import ProjetosComponent from './pages/projetos/Projetos';
+import ContatoComponent from './pages/contato/Contato';
+import Footer from './pages/footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <SobreComponent />
       <ExpComponent />
       <ProjetosComponent />
+      <ContatoComponent />
+      <Footer />
     </div>
   );
 }

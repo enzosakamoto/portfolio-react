@@ -27,8 +27,10 @@ header {
 .texto-items {
     font-size: 2rem;
     transition: color 0.4s ease-out;
+    transition: all 250ms;
 }
 
 .texto-items:hover {
     color: rgb(167, 165, 165);
+    transform: scale(1.1);
 }

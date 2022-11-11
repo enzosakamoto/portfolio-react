@@ -7,6 +7,25 @@ import './Sobre.css'
 import Botao from '../../components/botao/Botao'
 
 export default function SobreComponent() {
+
+    const botoes = [
+        {
+            link: "https://www.linkedin.com/in/enzosakamoto/",
+            logo: linkedin,
+            texto: "LinkedIn"
+        },
+        {
+            link: "https://github.com/enzosakamoto",
+            logo: github,
+            texto: "Github"
+        },
+        {
+            link: "./assets/EnzoSakamoto_CV.pdf",
+            logo: nuvem,
+            texto: "Currículo"
+        },
+    ];
+
     return(
         <div className="perfil">
             <img src={avatar} alt="Uma foto minha" className="foto-avatar"/>
@@ -24,22 +43,21 @@ export default function SobreComponent() {
                 <p className="paragrafo">
                     Me considero competente, ágil e extremamente bem humorado!
                 </p>
+                <p className="paragrafo">
+                    Atualmente, estou a procura de uma vaga de estágio como Desenvolvedor Júnior.
+                </p>
                 <div className="botoes">
-                    <Botao 
-                        link="https://www.linkedin.com/in/enzosakamoto/"
-                        logo={linkedin}
-                        texto="Linkedin"
-                    />
-                    <Botao 
-                        link="https://github.com/enzosakamoto"
-                        logo={github}
-                        texto="Github"
-                    />
-                    <Botao 
-                        link="./assets/EnzoSakamoto_CV.pdf"
-                        logo={nuvem}
-                        texto="Currículo"
-                    />
+                    {
+                        botoes.map(botao => {
+                            return(
+                                <Botao 
+                                    link = {botao.link}
+                                    logo = {botao.logo}
+                                    texto = {botao.texto}
+                                />
+                            );
+                        })
+                    }
                 </div>
             </div>
         </div>
