@@ -29,6 +29,7 @@ export default function ExpComponent() {
                 {containerDev_show ? 
                     <div className="container-textos">
                         <div className="textos">
+                            <h3 className="data-experiencia">Março 2022 - Até o momento</h3>
                             <p className="textos-paragrafo">
                                 A Dev. Community Mauá é uma entidade de desenvolvimento e criação de soluções computacionais do Instituto Mauá de Tecnologia.
                             </p>
@@ -46,18 +47,19 @@ export default function ExpComponent() {
                     :
                     <div className="container-textos">
                         <div className="textos">
+                            <h3 className="data-experiencia">Setembro 2022 - Até o momento</h3>
                             <p className="textos-paragrafo">
-                                Monitor para o Instituto Mauá de Tecnologia, contribuindo para o projeto de Curricularização da Extensão.
+                                Monitor para o Instituto Mauá de Tecnologia, contribuindo para o projeto de Curricularização da Extensão e auxiliando o grupo de trabalho de professores.
                             </p>
                             <p className="textos-paragrafo">
-                                Projeto em desenvolvimento por grupos de professores e coordenadores de cursos do IMT.
+                                Projeto em desenvolvimento por professores e coordenadores de cursos do IMT.
                             </p>
                             <p className="textos-paragrafo">
                                 Estou atuando como auxiliar ao Grupo de Trabalho e ao Núcleo de Extensão Universitária, tendo como função a organização de dados, criação de planilhas, criação de novos sistemas de banco e controle de dados e etc.
                             </p>
                         </div>
-                        <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br" target="_blank">
-                            <img src={maua} alt="Logo da Dev. Community Mauá"/>
+                        <a href="https://maua.br" target="_blank">
+                            <img src={maua} alt="Logo do IMT"/>
                         </a>
                     </div>
                 }
