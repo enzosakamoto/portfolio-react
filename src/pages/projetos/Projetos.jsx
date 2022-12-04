@@ -32,7 +32,7 @@ export default function ProjetosComponent() {
     ];
 
     return (
-        <div className="projetos">
+        <div id="projects" className="projetos">
             <h2>Projetos</h2>
             <div className="projetos-wrap">
                 {

@@ -1,17 +1,31 @@
+import React from 'react';
+import {Link} from 'react-scroll'
+import ES from './assets/ES.svg'
+
 import './Navbar.css';
 
 export default function NavbarComponent() {
     return (
         <header>
-            <nav className="logo">
-                <a href="#home" className="texto-logo">ES</a>
-            </nav>
-            <nav className="items">
-                <a href="#perfil" className="texto-items">Sobre</a>
-                <a href="#experiencias" className="texto-items">Experiências</a>
-                <a href="#projetos" className="texto-items">Projetos</a>
-                <a href="#contato" className="texto-items">Contatos</a>
-            </nav>
+            <div>
+                <Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>
+                    <img className="texto-logo" src={ES} alt="Logo ES"/>
+                </Link>
+            </div>
+            <div className="items">
+                <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500} className="texto-items">
+                    Sobre
+                </Link>
+                <Link activeClass="active" to="exp" spy={true} smooth={true} offset={-200} duration={500} className="texto-items">
+                    Experiências
+                </Link>
+                <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-73} duration={500} className="texto-items">
+                    Projetos
+                </Link>
+                <Link activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500} className="texto-items">
+                    Contatos
+                </Link>
+            </div>
         </header>
     );
 }

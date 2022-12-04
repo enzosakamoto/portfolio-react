@@ -15,8 +15,13 @@ header {
 }
 
 .texto-logo {
-    font-weight: 700;
     font-size: 3rem;
+    transition: all 250ms;
+    cursor: pointer;
+}
+
+.texto-logo:hover {
+    transform: scale(1.1);
 }
 
 .items {
@@ -28,6 +33,7 @@ header {
     font-size: 2rem;
     transition: color 0.4s ease-out;
     transition: all 250ms;
+    cursor: pointer;
 }
 
 .texto-items:hover {

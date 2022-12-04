@@ -27,7 +27,7 @@ export default function SobreComponent() {
     ];
 
     return(
-        <div className="perfil">
+        <div id="about" className="perfil">
             <img src={avatar} alt="Uma foto minha" className="foto-avatar"/>
             <div className="conteudo-escrito">
                 <h2 className="titulo">Sobre mim</h2>

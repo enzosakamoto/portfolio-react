@@ -5,7 +5,7 @@ import './Contato.css'
 
 export default function ContatoComponent() {
     return(
-        <div className="contato">
+        <div id="contact" className="contato">
             <h2>Contato</h2>
             <p className="texto-contato">
                 Entre em contato comigo!

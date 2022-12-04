@@ -11,7 +11,7 @@ function ClickBotao() {
 export default function ExpComponent() {
     const [containerDev_show, SetContainer] = useState(1);
     return(
-        <div className="experiencias">
+        <div id="exp" className="experiencias">
             <h2>Experiências</h2>
             <div className='experiencias-container'>
                 <div className='experiencias-botoes'>

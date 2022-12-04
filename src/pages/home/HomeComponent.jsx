@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 
 export default function HomeComponent() {
     return (
-        <div className="home">
+        <div id="home" className="home">
             <div className="titulos">
                 <h2>Bem-vindo! Eu sou</h2>
                 <h1>
