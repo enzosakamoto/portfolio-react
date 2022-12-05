@@ -27,4 +27,5 @@
 .logo-home {
     width: 55.5rem;
     height: 55.5rem;
+    perspective: 1000px;
 }
