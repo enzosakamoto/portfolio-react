@@ -23,7 +23,7 @@ export default function NavbarComponent() {
                     Projetos
                 </Link>
                 <Link activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500} className="texto-items">
-                    Contatos
+                    Contato
                 </Link>
             </div>
         </header>

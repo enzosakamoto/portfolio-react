@@ -5,20 +5,6 @@ import React from "react";
 import { gsap } from "gsap";
 
 export default function HomeComponent() {
-    document.addEventListener("mousemove", function(event) {
-        var width = window.innerWidth,
-        height = window.innerHeight;
-        positionX = (event.clientX/width) - 0.55;
-        // positionY = (event.clientY/height) - 0.55;
-        gsap.to(".logo-home", {
-            // rotationY: positionX * 50, 
-            // rotationX: -positionY * 50,
-            // ease: "none"
-            rotate: 27,
-            x: 100,
-            duration: 1
-        });
-    })
     return (
         <div id="home" className="home">
             <div className="titulos">
