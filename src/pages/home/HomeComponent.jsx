@@ -2,7 +2,6 @@ import './Home.css'
 import logo from './assets/programador.svg'
 import Typewriter from 'typewriter-effect'
 import React from "react";
-import { gsap } from "gsap";
 
 export default function HomeComponent() {
     return (
