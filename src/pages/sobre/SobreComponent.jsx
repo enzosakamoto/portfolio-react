@@ -38,7 +38,7 @@ export default function SobreComponent() {
                     Sou entusiasta e amante da programação e informática. Desde pequeno sempre soube que seguiria minha carreira profissional trabalhando com tecnologias, procurando sempre me manter antenado sobre.
                 </p>
                 <p className="paragrafo">
-                    Estudante de Engenharia de Computação no Instituto Mauá de Tecnologia. Estou focado em aprender mais precisamente Python, JavaScript, CSS, HTML, Dart e C, além de outras tecnologias de desenvolvimento.
+                    Estudante de Engenharia de Computação no Instituto Mauá de Tecnologia. Estou focado em aprender mais precisamente Python, JavaScript (ReactJS), CSS, HTML, além de outras tecnologias de desenvolvimento.
                 </p>
                 <p className="paragrafo">
                     Me considero competente, ágil e extremamente bem humorado!

@@ -1,5 +1,6 @@
 import email from './assets/email.svg'
 import linkedin from './assets/linkedin.svg'
+import telefone from './assets/telefone.svg'
 
 import './Contato.css'
 
@@ -15,6 +16,12 @@ export default function ContatoComponent() {
                         <img src={email} alt="Logo Email"/>
                         <p className="texto-contato">
                             enzo.sak@hotmail.com
+                        </p>
+                </div>
+                <div className="email-contato">
+                        <img src={telefone} className="logo-telefone" alt="Logo telefone"/>
+                        <p className="texto-contato">
+                            (11) 95320-2088
                         </p>
                 </div>
                 <a href="https://www.linkedin.com/in/enzosakamoto/" className='linkedin-contato' target="_blank">

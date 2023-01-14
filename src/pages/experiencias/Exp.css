@@ -1,13 +1,13 @@
 .experiencias {
     display: flex;
     flex-direction: column;
-    height: 35vh;
+    height: 50vh;
     padding: 12rem;
     gap: 7rem;
 }
 
 .experiencias h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     /* margin-left: 4.8rem; */
 }
@@ -77,4 +77,33 @@
 
 .container-textos img:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 1460px) {
+    .experiencias {
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem;
+    }
+    .experiencias-container {
+        flex-direction: column;
+        gap: 8rem;
+    }
+    .container-textos {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+    .experiencias {
+        height: 90vh;
+        padding: 4rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .experiencias {
+        height: 100vh;
+    }
 }

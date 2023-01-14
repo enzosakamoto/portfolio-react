@@ -38,3 +38,10 @@
     font-size: 2rem;
     text-align: justify;
 }
+
+@media (max-width: 550px) {
+    .container-wrap {
+        width: 30vh;
+        height: 40vh;
+    }
+}

@@ -1,6 +1,6 @@
 import './ContainerProjeto.css'
 
-export default function ContainerComponent(props) {
+export default function ContainerComponent({props}) {
     return(
         <a href={props.link} target="_blank">
             <div className="container-wrap">

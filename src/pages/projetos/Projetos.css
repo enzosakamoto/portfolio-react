@@ -1,12 +1,13 @@
 .projetos {
     background-color: black;
-    height: 75vh;
+    height: 100vh;
     border-top: 0.4px solid white;
     display: flex;
     flex-direction: column;
-    padding: 8.6rem;
-    place-items: center;
-    justify-content: space-between;
+    padding: 15rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
 }
 
 .projetos h2 {
@@ -15,8 +16,14 @@
 
 .projetos-wrap {
     display: flex;
+    /* flex-direction: row; */
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 8rem;
 }
 
 .projetos-link h3 {
@@ -30,3 +37,48 @@
     color: rgb(167, 165, 165);
     transform: scale(1.1);
 }
+
+@media (max-width: 1602px) {
+    .projetos {
+        padding: 11rem;
+    }
+}
+@media (max-width: 1522px) {
+    .projetos {
+        height: 160vh;
+    }
+}
+@media (max-width: 1040px) {
+    .projetos {
+        height: 320vh;
+    }
+}
+@media (max-width: 550px) {
+    .projetos {
+        height: 280vh;
+    }
+}
+/* 
+@media (max-width: 1523px) {
+    .projetos {
+        height: 160vh;
+    }
+}
+
+@media (max-width: 1064px) {
+    .projetos {
+        padding: 8rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projetos {
+        height: 330vh;
+    }
+}
+
+@media (max-width: 550px) {
+    .projetos {
+        height: 160vh;
+    }
+} */

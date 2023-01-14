@@ -16,7 +16,7 @@ export default function NavbarComponent() {
                 <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500} className="texto-items">
                     Sobre
                 </Link>
-                <Link activeClass="active" to="exp" spy={true} smooth={true} offset={-200} duration={500} className="texto-items">
+                <Link activeClass="active" to="exp" spy={true} smooth={true} offset={-150} duration={500} className="texto-items">
                     Experiências
                 </Link>
                 <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-73} duration={500} className="texto-items">

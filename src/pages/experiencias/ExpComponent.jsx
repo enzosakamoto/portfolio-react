@@ -9,7 +9,7 @@ function ClickBotao() {
 }
 
 export default function ExpComponent() {
-    const [containerDev_show, SetContainer] = useState(1);
+    const [container, SetContainer] = useState(true);
     return(
         <div id="exp" className="experiencias">
             <h2>Experiências</h2>
@@ -17,34 +17,17 @@ export default function ExpComponent() {
                 <div className='experiencias-botoes'>
                     <button 
                         className="container-botao"
-                        onClick={() => SetContainer(1)}>
-                            <p>Dev. Community Mauá</p>
+                        onClick={() => SetContainer(true)}>
+                            <p>Monitor - GT</p>
                     </button>
                     <button 
                         className="container-botao"
-                        onClick={() => SetContainer(0)}>
-                        <p>Monitor - GT</p>
+                        onClick={() => SetContainer(false)}>
+                        <p>Dev. Community Mauá</p>
                     </button>
                 </div>
-                {containerDev_show ? 
-                    <div className="container-textos">
-                        <div className="textos">
-                            <h3 className="data-experiencia">Março 2022 - Até o momento</h3>
-                            <p className="textos-paragrafo">
-                                A Dev. Community Mauá é uma entidade de desenvolvimento e criação de soluções computacionais do Instituto Mauá de Tecnologia.
-                            </p>
-                            <p className="textos-paragrafo">
-                                Membro desde março de 2022, exercendo função de Desenvolvedor Front-End.
-                            </p>
-                            <p className="textos-paragrafo">
-                                Atuei como Desenvolvedor Front-End e Back-End do projeto integrador do sistema da biblioteca com o site da instituição, chamado MauáLib, utilizando a linguagem de programação Dart com framework Flutter.
-                            </p>
-                        </div>
-                        <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br" target="_blank">
-                            <img src={dev} alt="Logo da Dev. Community Mauá"/>
-                        </a>
-                    </div>
-                    :
+                {
+                container ?
                     <div className="container-textos">
                         <div className="textos">
                             <h3 className="data-experiencia">Setembro 2022 - Até o momento</h3>
@@ -60,6 +43,24 @@ export default function ExpComponent() {
                         </div>
                         <a href="https://maua.br" target="_blank">
                             <img src={maua} alt="Logo do IMT"/>
+                        </a>
+                    </div>
+                    :
+                    <div className="container-textos">
+                        <div className="textos">
+                            <h3 className="data-experiencia">Março 2022 - Até o momento</h3>
+                            <p className="textos-paragrafo">
+                                A Dev. Community Mauá é uma entidade de desenvolvimento e criação de soluções computacionais do Instituto Mauá de Tecnologia.
+                            </p>
+                            <p className="textos-paragrafo">
+                                Membro desde março de 2022, exercendo função de Desenvolvedor Front-End.
+                            </p>
+                            <p className="textos-paragrafo">
+                                Atuei como Desenvolvedor Front-End e Back-End do projeto integrador do sistema da biblioteca com o site da instituição, chamado MauáLib, utilizando a linguagem de programação Dart com framework Flutter.
+                            </p>
+                        </div>
+                        <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br" target="_blank">
+                            <img src={dev} alt="Logo da Dev. Community Mauá"/>
                         </a>
                     </div>
                 }
