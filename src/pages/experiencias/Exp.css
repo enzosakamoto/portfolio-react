@@ -95,9 +95,9 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 815px) {
     .experiencias {
-        height: 90vh;
+        height: 100vh;
         padding: 4rem;
     }
 }

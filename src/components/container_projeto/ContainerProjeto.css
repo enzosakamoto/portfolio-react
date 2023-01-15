@@ -45,3 +45,11 @@
         height: 40vh;
     }
 }
+
+
+@media (max-width: 330px) {
+    .container-wrap {
+        width: 27vh;
+        height: 37vh;
+    }
+}

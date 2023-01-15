@@ -53,10 +53,10 @@ export default function ExpComponent() {
                                 A Dev. Community Mauá é uma entidade de desenvolvimento e criação de soluções computacionais do Instituto Mauá de Tecnologia.
                             </p>
                             <p className="textos-paragrafo">
-                                Membro desde março de 2022, exercendo função de Desenvolvedor Front-End.
+                                Estou exercendo função de Desenvolvedor Front-End. Atualmente, estou trabalhando no projeto do portfólio da entidade.
                             </p>
                             <p className="textos-paragrafo">
-                                Atuei como Desenvolvedor Front-End e Back-End do projeto integrador do sistema da biblioteca com o site da instituição, chamado MauáLib, utilizando a linguagem de programação Dart com framework Flutter.
+                                Atuei como Desenvolvedor Fullstack do projeto integrador do sistema da biblioteca com o site da instituição, chamado MauáLib, utilizando a linguagem de programação Dart com framework Flutter.
                             </p>
                         </div>
                         <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br" target="_blank">

@@ -16,8 +16,6 @@
 
 .projetos-wrap {
     display: flex;
-    /* flex-direction: row; */
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
@@ -43,42 +41,22 @@
         padding: 11rem;
     }
 }
+
 @media (max-width: 1522px) {
     .projetos {
         height: 160vh;
     }
 }
+
 @media (max-width: 1040px) {
     .projetos {
         height: 320vh;
     }
 }
+
 @media (max-width: 550px) {
     .projetos {
         height: 280vh;
     }
 }
-/* 
-@media (max-width: 1523px) {
-    .projetos {
-        height: 160vh;
-    }
-}
 
-@media (max-width: 1064px) {
-    .projetos {
-        padding: 8rem;
-    }
-}
-
-@media (max-width: 1000px) {
-    .projetos {
-        height: 330vh;
-    }
-}
-
-@media (max-width: 550px) {
-    .projetos {
-        height: 160vh;
-    }
-} */

@@ -9,7 +9,7 @@ export default function NavbarComponent() {
         <header>
             <div>
                 <Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>
-                    <img className="texto-logo" src={ES} alt="Logo ES"/>
+                    <p className="texto-logo">ES</p>
                 </Link>
             </div>
             <div className="items">

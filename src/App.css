@@ -31,3 +31,9 @@ body {
         font-size: 45%;
     }
 }
+
+@media (max-width: 300px) {
+    * {
+        font-size: 35%;
+    }
+}
