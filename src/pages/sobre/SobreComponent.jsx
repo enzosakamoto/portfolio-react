@@ -20,7 +20,7 @@ export default function SobreComponent() {
             texto: "Github"
         },
         {
-            link: "./assets/EnzoSakamoto_CV.pdf",
+            link: "https://enzosakamoto.github.io/portfolio/assets/EnzoSakamoto_CV.pdf",
             logo: nuvem,
             texto: "Currículo"
         },
