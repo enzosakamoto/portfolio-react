@@ -63,7 +63,7 @@ header .nav-btn {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     header .nav-btn {
         visibility: visible;
         opacity: 1;
