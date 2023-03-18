@@ -3,6 +3,7 @@ import bot from './assets/bot.svg'
 import comida from './assets/comida.svg'
 import hash from './assets/hash.svg'
 import cep from './assets/cep.svg'
+import port from './assets/port.svg'
 import soon from './assets/soon.svg'
 
 const projetos = [
@@ -35,18 +36,18 @@ const projetos = [
         tecnologias: "Tecnologias: Python"
     },
     {
+        link: "https://github.com/enzosakamoto/portfolio-react", 
+        img: port, 
+        titulo: "Portfólio", 
+        desc: "Website que reúne todas as minhas informações, formas de contato e projetos profissionais.",
+        tecnologias: "Tecnologias: HTML, CSS e Javascript (ReactJS)"
+    },
+    {
         link: "https://github.com/enzosakamoto/site-cep", 
         img: cep, 
         titulo: "Site CEP", 
         desc: "Site que utiliza da API do ViaCEP para fazer requisição de dados da localidade digitada.",
         tecnologias: "Tecnologias: HTML, CSS e Javascript (ReactJS)"
-    },
-    {
-        link: "/", 
-        img: soon, 
-        titulo: "Em breve", 
-        desc: "",
-        tecnologias: ""
     }
 ];
 

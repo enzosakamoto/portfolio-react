@@ -49,3 +49,15 @@
         height: 42rem;
     }
 }
+
+@media (max-height: 745px) {
+    .titulos h1 {
+        font-size: 15rem;
+    }
+}
+
+@media (max-height: 640px) {
+    .titulos h1 {
+        font-size: 20rem;
+    }
+}

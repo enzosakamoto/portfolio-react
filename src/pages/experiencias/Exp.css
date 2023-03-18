@@ -107,3 +107,9 @@
         height: 100vh;
     }
 }
+
+@media (max-height: 745px) {
+    .experiencias {
+        height: 120vh;
+    }
+}

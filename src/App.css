@@ -37,3 +37,21 @@ body {
         font-size: 35%;
     }
 }
+
+@media (max-height: 745px) {
+    * {
+        font-size: 40%;
+    }
+}
+
+@media (max-height: 680px) {
+    * {
+        font-size: 37%;
+    }
+}
+
+@media (max-height: 640px) {
+    * {
+        font-size: 34%;
+    }
+}

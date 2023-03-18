@@ -78,3 +78,15 @@
         height: 40rem;
     }
 }
+
+@media (max-height: 745px) {
+    .perfil {
+        height: 150vh;
+    }
+    .foto-avatar {
+        width: auto;
+        border-left: 3px solid white;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+}
